@@ -2,12 +2,12 @@ import React from 'react'
 import EventIcon from '@mui/icons-material/Event';
 import WorkIcon from '@mui/icons-material/Work';
 import { PATH } from '../../../routes/path';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { Drawer, List, Toolbar } from '@mui/material';
 import MenuItem from './MenuItem';
 
 const Sidebar:React.FC = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const menu = [
       {
